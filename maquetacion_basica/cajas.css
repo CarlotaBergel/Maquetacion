@@ -1,0 +1,59 @@
+*{
+    margin-top: 2px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1%;
+}
+.header{
+    padding-bottom: 20px;
+    border: 2px solid green;
+}
+nav{
+    padding-bottom: 7px;
+    border: 2px solid rgb(201, 116, 116);
+}
+body div{
+    display: flex;
+    /* border: 3px red solid; */
+    width: 100%;
+}
+body div article{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border:2px solid blue;
+}
+div article header{
+    border: 2px solid green;
+    margin-bottom: 100px;
+}
+div article section{
+    border: 2px solid purple;
+    padding-bottom: 10px;
+
+}
+div article footer{
+    border: 2px solid yellow;
+    padding-bottom: 5px;
+}
+.footer{
+    padding-bottom: 5px;
+    border: 2px solid yellow;
+
+}
+#divDiv{
+    border: 2px orange solid;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-bottom: 5px;
+}
+aside{
+    border: 2px solid blue;
+    padding-bottom: 40%;
+}
