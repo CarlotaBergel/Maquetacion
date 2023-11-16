@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;    
+    list-style-type: none;
+}
+body{
+    width: 100%;
+}
+/* Header */
+nav{
+    background-color: black;
+    display: flex;
+    height: 10vh;
+}
+ul{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    margin-top: 15px;
+}
+li{
+    display:block;
+    margin-top: 20px;
+    width: 33.33%;
+    text-align: center;
+}
+img{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+/* Main */
+
+#mainInicio{
+    background-image: url(fondo.png);
+    height: 85vh;
+}
+#h1Inicio{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 5%;
+    color: white;
+}
+#parrafo{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: black;
+}
+#h3{
+    text-align: center;
+    font-size: 60px;
+}
+#botPrin{
+    margin: 5%;
+    font-size: 20px;
+    display: flex;
+    padding: 5%;  
+}
+.bot1Prin{
+    width: 40%;
+    margin-right: 5%;
+}
+.bot1Prin a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 5%;
+    background-color: black;
+}
+/* CURSOS */
+#mainCursos{
+   width: 100%;
+   height: 85vh;
+   background-image: url(fondo.png);
+}
+#contenedorPrincipal{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#fulltimeweb{
+    margin-bottom: 20px;
+    background-color: black;
+}
+#parttimeweb{
+    background-color: black;
+    margin-bottom: 20px;
+}
+#fulltimedata{
+    margin-bottom: 20px;
+    background-color: black;
+
+}
+#h1cursos{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 15px ;
+}
+
+/* Formulario */
+#mainContacto{
+    width: 100%;
+    height: 85vh;
+    background-color: #5d9b9b;
+}
+.contenedorFormulario{	
+	width: 460px; 
+    margin-top: 30px;
+    margin-left: 35%;
+	border-radius: 2px;  
+	padding-top: 30px;
+	padding-bottom: 20px;  
+    background-color: black; 
+    padding-left: 30px; 
+}
+input{
+	background-color: white; 
+	width: 408px;
+	height: 40px; 
+	border-radius: 2px;  
+	margin-top: 5px;  
+	padding-left: 5px;
+    margin-bottom: 5px; 
+}
+textarea{
+    background-color: white; 
+	width: 405px; 
+	height: 150px; 
+	border-radius: 2px;  
+	margin-top: 5px;  
+	padding-left:5px;
+    margin-bottom: 5px; 
+    padding-top: 5px; 
+}
+label{
+    display: block; 
+    float: center;
+}
+button{
+    text-align: center;
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 10px; 
+	margin-top: 10px; 	
+	background-color: blue; 
+	border-radius: 2px;	
+	width: 420px;
+}
+.aviso{
+	font-size: 11px;  
+}
+h1{
+	font-size: 25px;  
+	padding-bottom: 10px; 
+}
+h3{
+	font-size: 14px; 
+	padding-bottom: 10px;
+}
+.p{
+	font-size: 11px; 
+}
+
+/* Nosotros */
+#mainNos{
+    background-image: url(fondo.png);
+    /* height: 85vh; */
+}
+#titNos, .subNos{
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+.prof{
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 40%;
+    padding-bottom:5% ;
+    display: flex;
+}
+.p{
+    font-size: 14px; 
+}
+h5{
+    margin-top: 5px;
+}
+.textoDiv{
+    margin-left: 30px;
+}
+
+img{
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer{
+    background-color: black;
+    height: 5vh;
+    display: flex;
+    padding-top: 10px;
+}
+li{
+    text-align: center;
+    margin-bottom: 20px;
+}
