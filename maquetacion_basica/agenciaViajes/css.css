@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    height: 8vh;
+}
+#sobreNosotros{
+    background-image: url(https://www.blogdelfotografo.com/wp-content/uploads/2020/04/fotografo-paisajes.jpg);
+    height: 300px;
+}
+.lugar{
+    width: 90%;
+    display: flex;
+    text-align: justify;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+#p{
+    padding: 3%;
+}
+h2{
+    padding-left: 3%;
+}
+#boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+#botInfo{
+    padding: 20px;
+}
+/* FORMULARIO */
+.contenedorFormulario{
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input, #solicitar_informacion, #button {
+    width: 408px;
+	height: 30px; 
+}
+label{
+    display: block;
+}
+
+footer{
+    background-color: black;
+    height: 5vh;
+    margin-top: 30px;
+}
