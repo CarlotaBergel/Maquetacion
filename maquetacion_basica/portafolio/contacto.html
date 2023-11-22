@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="principal.html"> <b> Inicio </b> </a></li>
+            <li><a href="proyectos.html"> <b>Proyectos </b> </a></li>
+            <li><a href="tecnologias.html"> <b>Tecnologías</b></a></li>
+            <li><a href="contacto.html"> <b>Contacto </b> </a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>¡CONTACTAME!</h1>
+        <p id="pContacto">Estoy en busca de nuevas oportunidades para aplicar mis habilidades y contribuir al crecimiento de proyectos dinámicos. ¿Buscan a alguien con visión estratégica, habilidades técnicas sólidas y una mentalidad centrada en el usuario? ¡Entonces, su búsqueda ha llegado a su fin!. Me encantaría discutir cómo mi combinación única de habilidades puede aportar valor a su equipo. ¡No duden en contactarme para explorar sinergias y posibles colaboraciones! Estoy emocionada por la posibilidad de contribuir al éxito de su empresa.</p>
+        <div id="contenedorFormulario">
+            <h3>Formulario de contacto</h3>
+            <form action="submeter-formulario.php" method="post">				
+                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">  
+                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 								
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>					  
+            </form>
+        </div>
+
+
+    </main>
+    <footer>
+        <a href="https://www.linkedin.com"> <b> Linkedin </b></a>
+        <a href="https://www.facebook.com"> <b> Facebook </b></a>
+        <a href="https://twitter.com"> <b> Twitter </b> </li>
+        <a href="https://www.instagram.com"> <b> Instagram </b> </a>
+    </footer>
+</body>
+</html>
