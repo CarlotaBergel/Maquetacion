@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    min-height: 440px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 75px 200px;
+    grid-template-rows: 300px 250px;
+}
+.caja{
+    display: flex;
+    justify-content: center;
+}
+.one{
+    background-color: greenyellow;
+}
+.two{
+    background-color: black;
+    color: white;
+}
