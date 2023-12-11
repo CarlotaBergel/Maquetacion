@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="tienda.js"></script>
+</head>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid bg-dark">
+      <img class="navbar-brand" src="img/nash!.png" width="30px">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">ULTIMAS LLEGADAS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> CATEGORIAS</a>
+          </li>
+        </ul>
+        <button type="button" id="btnCarrito">CARRITO</button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container" >
+      <div class="row">
+        <div class="card col" style="width: 8rem;">
+            <img class="img-product" src="img/pantalones_tallealto.png" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Pantalon suelto gris</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-price">20€</p>
+              <a href="#" class="btn btn-primary addCarrito">Añadir al carrito</a>
+            </div>
+        </div>
+        <div class="card col" style="width: 8rem;">
+            <img class="img-product" src="img/vestido_tunico.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Vestido Túnico</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-price">18€</p>
+              <a href="#" class="btn btn-primary addCarrito">Añadir al carrito</a>
+            </div>
+        </div>
+
+        <div class="card col " style="width: 8rem;">
+          <img class="img-product" src="img/falda_print.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Falda Mid Print</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-price">12€</p>
+            <a href="#" class="btn btn-primary addCarrito">Añadir al carrito</a>
+          </div>
+        </div>
+
+        <div class="card col" style="width: 8rem;">
+            <img class="img-product" src="img/cardigan_largo_rayas.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cardigan Largo Rayas</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-price">22€</p>
+              <a href="#" class="btn btn-primary addCarrito">Añadir al carrito</a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" >
+      <div class="row">
+        <div class="card col" style="width: 8rem;">
+          <img class="img-product" src="img/falda_mini_zebra.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cardigan Largo Rayas</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-price">22€</p>
+            <a href="#" class="btn btn-primary addCarrito">Añadir al carrito</a>
+          </div>
+        </div>
+        <div class="card col" style="width: 8rem;">
+          <img class="img-product" src="img/mono_overol.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cardigan Largo Rayas</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-price">22€</p>
+            <a href="#" class="btn btn-primary addCarrito">Añadir al carrito</a>
+          </div>
+        </div>
+        <div class="card col" style="width: 8rem;">
+          <img class="img-product" src="img/mono_overol.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cardigan Largo Rayas</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-price">22€</p>
+            <a href="#" class="btn btn-primary addCarrito">Añadir al carrito</a>
+          </div>
+        </div>
+        <div class="card col" style="width: 8rem;">
+          <img class="img-product" src="img/pantalon_ancho.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cardigan Largo Rayas</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-price">22€</p>
+            <a href="#" class="btn btn-primary addCarrito">Añadir al carrito</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="windowCarrito">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Carrito</h5>
+            <button type="button" id="cerrar" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" id="div-carrito">
+            <p>Productos</p>
+          </div>
+          <div class="modal-footer">
+            <p  class="text-right" id="total-carrito"><span id="total"></span></p>
+            <button id="botonVaciar" class="btn btn-danger">Vaciar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+  </main>
+
+
+
+</body>
+</html>
