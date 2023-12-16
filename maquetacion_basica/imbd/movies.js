@@ -1,7 +1,7 @@
 class Movie{
-    constructor(title, genere, actors, director, writer, photo) {
+    constructor(title, genero, actors, director, writer, photo) {
         this.title = title;
-        this.genere = genere;
+        this.genero = genero;
         this.actors = actors;
         this.director = director;
         this.writer = writer;
@@ -19,14 +19,14 @@ addPeliBBDD(arrPeli);
 // crear bucle peliculas y mostrar creacion car en cada vuelta
 function addPeliBBDD(arrPeli){
     for(let i = 0; i < arrPeli.length; i++){
+        console.log(newCard(arrPeli[i]));
         let card = newCard(arrPeli[i]);
-        // console.log(card)
+        console.log(card);
         addPelicula(card);
-        console.log(arrPeli[i])
     }
 }
 function newCard(movie){
-    let cardHtml = `
+    return `
         <div class="card" style="width: 18rem;">
         <img src="${movie.photo}" class="card-img-top" alt="...">
         <div class="card-body">
@@ -38,12 +38,11 @@ function newCard(movie){
         </div>
         </div>
     `;
-    console.log(cardHtml);
 }
 
 // y mostrar en card
-function addPelicula(peliculas){
-    $("#peliculas").append(peliculas);
+function addPelicula(pelicula){
+    $("#peliculas").append(pelicula);
 }
 $("#cardForm").on("submit", function(e){
     e.preventDefault();

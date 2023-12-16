@@ -14,9 +14,18 @@ let profes2 = new Profesional("Keanu Reeves",59, false, "estadonidense", "actor"
 let profes3 = new Profesional("Sylvester Stallone",77, false, "neoyorkino", "actor","https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2022/11/07/sylvester-stallone.jpeg");
 let arrprof =[profes1, profes2, profes3];
 
-newCard(arrprof);
+addProfBBDD(arrprof);
+
+function addProfBBDD(arrprof){
+    for(let i = 0; i < arrprof.length; i++){
+        console.log(newCard(arrprof[i]));
+        let card = newCard(arrprof[i]);
+        console.log(card);
+        addProf(card);
+    }
+}
 function newCard(profesional){
-    let cardHtml = `  
+    return `  
     <div class=" card row justify-content-between m-5" style="width: 18rem;">
         <img src="${profesional.photo}" class="card-img-top" alt="...">
         <div class="card-body">
@@ -24,12 +33,10 @@ function newCard(profesional){
           <p class="card-text">Edad: ${profesional.age}</p>
           <p class="card-text">Retirado: ${profesional.isretired}</p>
           <p class="card-text">Nacionalidad: ${profesional.nationality}</p>
-          <p class="card-text">Oscars: ${profesional.oscarsNumber}</p>
-          <p class="card-text">Profesion: ${profesional.profession}</p>
+          <p class="card-text">Oscars: ${profesional.profession}</p>
         </div>
     </div>`;
-    return cardHtml;
 }
-function addProfesional(profesional){
+function addProf(profesional){
     $("#profesionales").append(profesional);
 }
